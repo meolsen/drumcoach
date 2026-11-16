@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="64" viewBox="0 0 280 64" role="img" aria-label="Download DrumCoach for macOS">
+  <rect width="280" height="64" rx="14" fill="#111318"/>
+  <rect x="0.75" y="0.75" width="278.5" height="62.5" rx="13.25" fill="none" stroke="#5b6072" stroke-width="1.5"/>
+  <g fill="none" stroke="#34d399" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M36 17v22"/><path d="M27 31l9 9 9-9"/><path d="M24 47h24"/>
+  </g>
+  <text x="64" y="27" font-family="-apple-system, 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#c9cede">Download for</text>
+  <text x="64" y="49" font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="600" fill="#ffffff">macOS</text>
+  <text x="262" y="49" text-anchor="end" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8b93a6">Apple silicon</text>
+</svg>
