@@ -10,7 +10,7 @@ written notes as you play.
   </a>
 </p>
 
-Version 1.12.0 · free · for Macs with Apple silicon (M1 or later) ·
+Version 1.13.0 · free · for Macs with Apple silicon (M1 or later) ·
 signed and notarized by Apple · [all versions](https://github.com/meolsen/drumcoach/releases)
 
 ![DrumCoach after a run: the graded lesson, the lesson list and the live score](img/overview.png)
@@ -22,6 +22,10 @@ signed and notarized by Apple · [all versions](https://github.com/meolsen/drumc
 - **Grades every hit.** A green ring is on time, a yellow ring is early or
   late and shows which, a red note was missed, a blue ring is a stray hit.
   Each bar gets its own score.
+- **Search.** Type "open hat", "ghost notes", "7/8" or "four on the floor" and it finds
+  the lessons that have it.
+- **Free play.** Just you and the click: play anything and see how tightly you hold the
+  tempo, including with the click dropping out.
 - **Tells you where to play.** Four bands, Beginner to Advanced. The app
   recommends one from what you have mastered and suggests moving up when you
   are ready.
