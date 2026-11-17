@@ -1,0 +1,26 @@
+name: Something went wrong
+description: A hit graded unfairly, a lesson that looks wrong, a button that did nothing, a crash.
+title: "Problem: "
+labels: ["problem"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what you got. The lesson name and tempo help a lot.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: DrumCoach version
+      description: Shown on the download page you used, for example 1.14.0.
+  - type: input
+    id: kit
+    attributes:
+      label: Kit and module
+  - type: textarea
+    id: shot
+    attributes:
+      label: Screenshot
+      description: Drag a picture here if you have one (Shift-Cmd-4 takes one on a Mac).

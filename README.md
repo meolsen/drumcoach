@@ -10,7 +10,7 @@ written notes as you play.
   </a>
 </p>
 
-Version 1.13.0 · free · for Macs with Apple silicon (M1 or later) ·
+Version 1.14.0 · free · for Macs with Apple silicon (M1 or later) ·
 signed and notarized by Apple · [all versions](https://github.com/meolsen/drumcoach/releases)
 
 ![DrumCoach after a run: the graded lesson, the lesson list and the live score](img/overview.png)
@@ -26,6 +26,7 @@ signed and notarized by Apple · [all versions](https://github.com/meolsen/drumc
   the lessons that have it.
 - **Free play.** Just you and the click: play anything and see how tightly you hold the
   tempo, including with the click dropping out.
+- **Works with your kit.** A picture of a kit to hit and confirm, for three pieces or ten.
 - **Tells you where to play.** Four bands, Beginner to Advanced. The app
   recommends one from what you have mastered and suggests moving up when you
   are ready.
@@ -43,18 +44,45 @@ signed and notarized by Apple · [all versions](https://github.com/meolsen/drumc
 ## What you need
 
 - A Mac with Apple silicon (M1 or later).
-- An electronic drum kit that sends MIDI over USB or Bluetooth. It was built
-  with a Roland V-Drums kit; other General MIDI kits work, and any pad can be
-  re-assigned in Settings. Without a kit, the computer keyboard works as
-  practice pads.
+- An electronic drum kit that sends MIDI over USB or Bluetooth. Without a kit,
+  the computer keyboard works as practice pads.
 - Headphones. Wired is better: Bluetooth headphones add delay.
+
+## Which kits work
+
+DrumCoach recognises the make of your kit when you plug it in and sets the
+pads up for it. Then **Set up my kit** shows a picture of a kit: hit each pad
+and the drum the app hears lights up. If the wrong one lights, click the right
+one. Pads your kit does not have can be marked, and a neighbouring drum stands
+in for them in the lessons. That works for any kit, whatever its make or size.
+
+| Kit | Status |
+|---|---|
+| Roland V-Drums (V and TD series) | Built and tested on a V51, including rims, cymbal edges and bells, chokes and the hi-hat pedal |
+| Alesis (Nitro, Surge, Crimson, Strike) | Set up from Alesis's published pad table. **Not yet tried on a real kit** |
+| Yamaha DTX | Set up from Yamaha's published pad table. **Not yet tried on a real kit** |
+| Anything else | Starts from the General MIDI layout; use Set up my kit to finish it |
+
+If you have one of the untried kits, your report is the most useful thing you
+can send.
+
+## Tell me how it goes
+
+DrumCoach was built and tested on one kit by one drummer, so I'd like to hear
+from you, whatever happened:
+
+- **[My kit works / doesn't work](https://github.com/meolsen/drumcoach/issues/new?template=kit-report.yml)**: in the app, open Set up my kit, press **Copy kit report** and paste it in.
+- **[Something went wrong](https://github.com/meolsen/drumcoach/issues/new?template=problem.yml)**: a hit graded unfairly, a lesson that looks wrong, anything broken.
+- **[An idea or request](https://github.com/meolsen/drumcoach/issues/new?template=idea.yml)**: lessons or features you'd like.
+
+You need a free GitHub account to post. [See what others have reported](https://github.com/meolsen/drumcoach/issues).
 
 ## Installing
 
 1. Press the download button above and open the file.
 2. Drag **DrumCoach** onto **Applications**.
-3. Open DrumCoach. The first time, it checks that your kit is connected and
-   offers a twenty-second timing calibration. Do it: it makes the scores fair.
+3. Open DrumCoach. The first time, it finds your kit, offers **Set up my kit**
+   and a twenty-second timing calibration. Do both: they make the scores fair.
 4. Press **?** in the app for the full manual, with pictures.
 
 To update, download the new version and replace the old one. Your progress is

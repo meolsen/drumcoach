@@ -1,0 +1,39 @@
+name: My kit works / doesn't work
+description: Tell us which drum kit you tried and how it went. The most useful kind of feedback.
+title: "Kit report: "
+labels: ["kit report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. DrumCoach was built on one kit, so every report from another one helps.
+        In the app, open **Set up my kit** (Settings → Kit) and press **Copy kit report**, then paste it below.
+  - type: input
+    id: kit
+    attributes:
+      label: Kit and module
+      description: For example "Alesis Nitro Max" or "Roland TD-17KVX2".
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: How did it go?
+      options:
+        - Everything worked straight away
+        - Worked after I corrected some pads in Set up my kit
+        - Some pads never worked
+        - It did not see my kit at all
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: Kit report
+      description: Paste what "Copy kit report" gave you. It lists the signals your kit sent and nothing personal.
+      render: text
+  - type: textarea
+    id: details
+    attributes:
+      label: Anything else
+      description: Which pads were wrong, how the hi-hat behaved (open, closed, foot), whether the grading felt fair.

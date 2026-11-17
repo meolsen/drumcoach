@@ -1,0 +1,15 @@
+name: Idea or request
+description: A lesson you would like, a feature, something that would make practice better.
+title: "Idea: "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What it would help you do
