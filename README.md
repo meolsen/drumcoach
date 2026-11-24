@@ -10,7 +10,7 @@ written notes as you play.
   </a>
 </p>
 
-Version 1.19.1 · free · for Macs with Apple silicon (M1 or later) ·
+Version 1.19.2 · free · for Macs with Apple silicon (M1 or later) ·
 signed and notarized by Apple · [all versions](https://github.com/meolsen/drumcoach/releases)
 
 ![DrumCoach after a run: the graded lesson, the lesson list and the live score](img/overview.png)
