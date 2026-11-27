@@ -10,14 +10,14 @@ written notes as you play.
   </a>
 </p>
 
-Version 1.25.1 · free · for Macs with Apple silicon (M1 or later) ·
+Version 1.26.0 · free · for Macs with Apple silicon (M1 or later) ·
 signed and notarized by Apple · [all versions](https://github.com/meolsen/drumcoach/releases)
 
 ![DrumCoach after a run: the graded lesson, the lesson list and the live score](img/overview.png)
 
 ## What it does
 
-- **244 lessons** in four strands: rudiments and hand studies, feet and
+- **271 lessons** in four strands: rudiments and hand studies, feet and
   independence drills, grooves, and fills, in five levels from first week to advanced.
 - **Build it up.** A groove that will not come together can be played one layer at a
   time: hi-hat first, then the snare, then the bass drum a note at a time.
